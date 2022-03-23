@@ -63,7 +63,7 @@ export class Home extends Component {
 
     return (
       <section className="container">
-        <h1>Pagina de Teste</h1>
+        <h1>Pagina de Teste</h1> <br></br>
         <div class="search-container">
           {!!searchValue && (
             <h1>Search value: {searchValue}</h1>
